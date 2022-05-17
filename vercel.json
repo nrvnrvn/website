@@ -4,8 +4,12 @@
       "source": "/(.*)",
       "headers": [
         {
-          "key": "Referrer-policy",
+          "key": "Referrer-Policy",
           "value": "no-referrer"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
         },
         {
           "key": "X-Content-Type-Options",
