@@ -37,7 +37,7 @@
   "redirects": [
     {
       "source": "/go/:repo/:subpath*",
-      "destination": "/go/:repo"
+      "destination": "/go/:repo/"
     }
   ]
 }
